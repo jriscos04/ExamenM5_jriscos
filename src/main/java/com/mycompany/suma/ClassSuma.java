@@ -12,7 +12,9 @@ public class ClassSuma {
         this.num1 = num1;
     }
     
-    public int getNum1() {
-        return num1;
+    public int sumaValorAbsolut () {
+        num1 = Math.abs(-2);
+        int numFinal = num1 + 3;
+        return numFinal;
     }
 }
