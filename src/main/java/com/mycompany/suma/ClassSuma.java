@@ -12,7 +12,7 @@ public class ClassSuma {
         this.num1 = num1;
     }
     
-    public int sumar(int num2) {
-        return num1 + num2;
+    public int getNum1() {
+        return num1;
     }
 }
